@@ -14,5 +14,7 @@ class ApplicationController < Sinatra::Base
     comments = Request.all
     comments.to_json
   end
+
+  
   
 end
