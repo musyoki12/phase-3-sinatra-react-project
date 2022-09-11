@@ -9,5 +9,10 @@ class ApplicationController < Sinatra::Base
     requests = Request.all
     requests.to_json
   end
+
+  get "/comments" do 
+    comments = Request.all
+    comments.to_json
+  end
   
 end
